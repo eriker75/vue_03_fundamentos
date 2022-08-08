@@ -1,6 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <CounterComponent></CounterComponent>
+  <CounterComponent title="contador numero 1" :superv="3" :defcounter="5"/>
+  <CounterComponent title="contador numero 2" :superv="2" :defcounter="4"/>
 </template>
 
 <script>
